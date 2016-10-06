@@ -1,12 +1,62 @@
-<doctype html>
+<!doctype html>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Div Tag Template</title>
+	<title> Div Tag Template </title>
 	<style>
 		body { 
-			background:  lightgreen;
+			background: #ccccff;
 			font: 100% Georgia, Times, serif;
+		}
+		h1 {
+			font: 300% Arial, Helvetica, sans-serif;
+			color: grey;
+		}
+		h2 {
+			font: 200% Helvetica;
+			color: darkpurple;
+		}
+		p {
+			color: darkblue;
+		}
+		#wrapper {
+			width: 1100px;
+			margin: 0 auto;
+			padding: 0 50px;
+			text-align: left;
+			position: relative;
+		}
+		#mainHeader {
+			height: 185px;
+			background: url(Images/Logo.png) no-repeat 25px center;
+			padding: 0 75px 0 300px;
+			position: relative;
+			border-bottom: 2px solid #7f7f7f;
+			margin-bottom: 16px;
+		}
+		#mainHeader div {
+			margin-top: 16px;
+		}
+		#mainHeader ul {
+			list-style: none;
+			float: left;
+		}
+		#mainHeader ul li {
+			float: left;
+		}
+		#mainHeader ul li a {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+			color: #000;
+			padding: 0 20px;
+			border-right: 1px solid #000;
+			text-decoration: none;
+		}
+		#mainHeader ul li a:last {
+			border-right: none;
+		}
+		#mainHeader ul li a:hover {
+			color: #c00000;
 		}
 	</style>
 </head>
@@ -16,11 +66,11 @@
 	<div id="wrapper">
 		
 		<!-- Page Header - Logo, Title, Links -->
-		<div id="mainHeader">
+		<header id="mainHeader">
 			<h1> Exploring Computer Science </h1>
 			<h2> My Collection of Programming Projects </h2>
 			
-			<!-- Site Navigation -->
+			<!-- Site Navigation Links -->
 			<div id="mainNav">
 				<ul id="pages">
 					<li> <a href="#">Scratch</a> </li> 
@@ -29,23 +79,22 @@
 					<li> <a href="#">Final Project</a> </li>
 				</ul>
 			</div> <!-- End Navigation Links -->
-		</div> <!-- End Header -->
+		</header> <!-- End Header -->
 		
-		<!-- Section Content Area - Projects and Assignments -->
-		<div id="content"> 
-			<p> Replace this text with Project and Assigment examples
-			</p>
-		</div> <!-- End Content -->
+		<!-- Section Content - Projects and Assignments -->
+		<section id="content"> 
+			<p> Replace this text with Project and Assigment examples </p>
+		</section> <!-- End Content -->
 		
 		<!-- Aside Content - Hobblies and Interests -->
-		<div id="hobbies">
+		<aside id="events">
 			<p>Place things you like here, photos, links, videos, etc.</p>
-		</div> <!--End Hobbies>
+		</aside> <!--End Events>
 		
 		<!-- Footer Content -->
-		<div id="pageFooter">
+		<footer id="pageFooter">
 			<p> author, contact, copy rights </p>
-		</div> <!-- End Footer -->
+		</footer> <!-- End Footer -->
 	</div> <!-- End Wrapper-->
 </body>
 </html>

@@ -1,10 +1,10 @@
 @charset "UTF-8";
 body { 
 	background: lightyellow;
-	font: 100% Georgia, Times, serif;
+	font: 100% calibri, Times, serif;
 }
 h1 {
-	font: 300% Georgia, Helvetica, sans-serif;
+	font: 300% calibri, Helvetica, sans-serif;
 	color: black;
 }
 p {
@@ -20,7 +20,7 @@ p {
 header#mainHeader {
 	height: 185px;
 	background: url(Images/Logo2.png) no-repeat 25px center;
-	padding: 0 75px 0 300px;
+	padding: 0 75px 0 200px;
 	position: relative;
 	border-bottom: 2px solid #7f7f7f;
 	margin-bottom: 16px;
@@ -36,7 +36,7 @@ header#mainHeader ul li {
 	float: left;
 }
 header#mainHeader ul li a {
-	font-family: Arial, Helvetica, sans-serif;
+	font: calibri, Helvetica, sans-serif;
 	font-size: 20px;
 	color: #000;
 	padding: 0 20px;
